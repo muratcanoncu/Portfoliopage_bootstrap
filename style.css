@@ -1,2 +1,28 @@
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    font-size: 1.7rem;
+}
+.nav-item .nav-link {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,.5) !important;
+    padding: 0.5rem;
+}
+.nav-item .nav-link:hover {
+    cursor: pointer;
+    color: #fed136 !important; 
+}
+.icon-box {
+    width: 120px;
+    height: 120px;
+    background-color: #fed136 !important;
+}
+.team {
+    width: 250px;
+    border-radius: 50%;
+}
+input,textarea,button {
+    border-radius: 5px;
+    border: none !important;
+}
 
-/* code here */
