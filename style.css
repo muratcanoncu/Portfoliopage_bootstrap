@@ -12,6 +12,13 @@
     cursor: pointer;
     color: #fed136 !important; 
 }
+#service {
+    color: white !important; 
+}
+#service:hover {
+    cursor: pointer;
+    color: #fed136 !important; 
+} 
 .icon-box {
     width: 120px;
     height: 120px;
@@ -25,4 +32,19 @@ input,textarea,button {
     border-radius: 5px;
     border: none !important;
 }
-
+.hover-box .bg-warning {
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    width: 350px;
+    height: 262px;
+    opacity: 0;
+    background-color: #fed136!important;
+}
+.bg-warning:hover {
+    opacity: 0.6;
+    cursor: pointer;
+} 
+.modal-content {
+    width: auto;
+}
